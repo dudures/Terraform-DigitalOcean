@@ -17,4 +17,4 @@ resource "digitalocean_droplet" "k8s" {
     timeout     = "2m"
   }
   user_data = file("${path.module}/files/user-data.sh")
-  }
+}
