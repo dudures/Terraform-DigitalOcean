@@ -1,7 +1,8 @@
 **/.terraform/*
 *.tfstate
 *.tfstate.*
-terrafomr.tfvars
+variables.tfvars
+*.lock.hcl
 override.tf
 override.tf.json
 *_override.tf
